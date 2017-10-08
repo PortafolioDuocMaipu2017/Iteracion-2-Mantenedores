@@ -9,6 +9,7 @@
 <title>Pantalla de Ejecutivos</title>
 </head>
 <body>
+<jsp:include page="_menu.jsp" />
 	<div align="center">
 		<h1>Lista de Ejecutivos</h1>
 

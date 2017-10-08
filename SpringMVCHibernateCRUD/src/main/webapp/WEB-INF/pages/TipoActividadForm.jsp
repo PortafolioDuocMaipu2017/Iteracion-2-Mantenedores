@@ -9,6 +9,7 @@
 <title>Agregar/Editar Tipos de Actividades</title>
 </head>
 <body>
+<jsp:include page="_menu.jsp" />
 	<div align="center">
 		<h1>Nuevo/Editar Tipo de Actividad</h1>
 		<form:form action="guardarTipoActividad" method="post"

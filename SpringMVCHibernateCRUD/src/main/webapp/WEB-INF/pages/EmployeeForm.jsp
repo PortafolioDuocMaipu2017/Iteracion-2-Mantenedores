@@ -9,6 +9,7 @@
 <title>New/Edit Contact</title>
 </head>
 <body>
+<jsp:include page="_menu.jsp" />
 	<div align="center">
 		<h1>New/Edit Employee</h1>
 		<form:form action="saveEmployee" method="post"

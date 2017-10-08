@@ -9,6 +9,7 @@
 <title>Pantalla de Tipo de Actividades</title>
 </head>
 <body>
+<jsp:include page="_menu.jsp" />
 	<div align="center">
 		<h1>Lista de Tipos de Actividades</h1>
 

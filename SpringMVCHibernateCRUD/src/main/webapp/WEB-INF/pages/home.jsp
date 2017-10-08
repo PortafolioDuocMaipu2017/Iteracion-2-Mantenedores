@@ -9,6 +9,7 @@
 <title>Employee Management Screen</title>
 </head>
 <body>
+<jsp:include page="_menu.jsp" />
 	<div align="center">
 		<h1>Employee List</h1>
 

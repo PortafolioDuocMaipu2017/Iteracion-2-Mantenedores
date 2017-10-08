@@ -9,6 +9,7 @@
 <title>Agregar/Editar Contactos</title>
 </head>
 <body>
+<jsp:include page="_menu.jsp" />
 	<div align="center">
 		<h1>Nuevo/Editar Ejecutivo</h1>
 		<form:form action="saveEjecutivo" method="post"
