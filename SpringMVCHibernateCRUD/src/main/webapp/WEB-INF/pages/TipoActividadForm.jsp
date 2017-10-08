@@ -10,13 +10,14 @@
 </head>
 <body>
 <jsp:include page="_menu.jsp" />
-	<div align="center">
-		<h1>Nuevo/Editar Tipo de Actividad</h1>
+	<div align="center"  class="container">
+		<h1>Nuevo/Editar Actividad</h1>
 		<form:form action="guardarTipoActividad" method="post"
 			modelAttribute="tipoActividad">
-			<table>
+			<div>
+			<table class="table">
 				<form:hidden path="id" />
-				<tr>
+				<tr >
 					<td>Tipo de Actividad:</td>
 					<td><form:input path="nombreTipo" /></td>
 				</tr>
@@ -26,9 +27,10 @@
 				</tr>
 				<tr>
 					<td colspan="2" align="center"><input type="submit"
-						value="Save"></td>
+						value="Guardar Cambios"></td>
 				</tr>
 			</table>
+			</div>
 		</form:form>
 	</div>
 </body>
