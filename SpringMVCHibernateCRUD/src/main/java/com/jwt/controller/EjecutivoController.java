@@ -18,12 +18,12 @@ import com.jwt.service.EjecutivoService;
 
 @Controller
 public class EjecutivoController {
-
+ 
 	private static final Logger logger = Logger
 			.getLogger(EjecutivoController.class);
 
 	public EjecutivoController() {
-		System.out.println("EjecutivoController()");
+		System.out.println("EjecutivoController().");
 	}
 
 	@Autowired
