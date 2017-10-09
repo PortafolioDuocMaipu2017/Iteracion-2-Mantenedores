@@ -37,6 +37,12 @@
           <li><a href="tipoContrato">Lista de Contratos</a></li>
         </ul>
       </li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Tipo Servicio <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="nuevoTipoServicio">Nuevo Tipo de Servicio</a></li>
+          <li><a href="tipoServicio">Lista de Servicios</a></li>
+        </ul>
+      </li>
       <li><a href="#">Page 3</a></li>
     </ul>
   </div>

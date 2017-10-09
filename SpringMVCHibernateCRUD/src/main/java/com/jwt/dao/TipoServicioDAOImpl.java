@@ -21,7 +21,7 @@ public class TipoServicioDAOImpl implements TipoServicioDAO {
 	@SuppressWarnings("unchecked")
 	public List<TipoServicio> getAllTipoServicio() {
 
-		return sessionFactory.getCurrentSession().createQuery("from tipo_servicio")
+		return sessionFactory.getCurrentSession().createQuery("from TipoServicio")
 				.list();
 	}
 
