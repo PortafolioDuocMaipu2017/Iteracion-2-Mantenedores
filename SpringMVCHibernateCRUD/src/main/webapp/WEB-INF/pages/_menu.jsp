@@ -27,8 +27,14 @@
       </li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Tipo Clientes <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="nuevoTipoCliente">Nuevo Tipo Cliente</a></li>
-          <li><a href="tipoCliente">Lista de Tipo Cliente</a></li>
+          <li><a href="nuevoTipoCliente">Nuevo Tipo de Cliente</a></li>
+          <li><a href="tipoCliente">Lista de Actividades</a></li>
+        </ul>
+      </li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Tipo Contratos <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="nuevoTipoContrato">Nuevo Tipo de Contrato</a></li>
+          <li><a href="tipoContrato">Lista de Contratos</a></li>
         </ul>
       </li>
       <li><a href="#">Page 3</a></li>
