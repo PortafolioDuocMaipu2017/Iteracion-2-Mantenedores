@@ -59,14 +59,14 @@ public class TipoClienteController {
 	public ModelAndView borrarTipoCliente(HttpServletRequest request) {
 		int tipoClienteId = Integer.parseInt(request.getParameter("id"));
 		tipoClienteService.deleteTipoCliente(tipoClienteId);
-		return new ModelAndView("redirect:/tipoClienteId");
+		return new ModelAndView("redirect:/tipoCliente");
 	}
 
 	@RequestMapping(value = "/editarTipoCliente", method = RequestMethod.GET)
 	public ModelAndView editarTipoCliente(HttpServletRequest request) {
 		int tipoClienteId = Integer.parseInt(request.getParameter("id"));
 		TipoCliente tipoCliente = tipoClienteService.getTipoCliente(tipoClienteId);
-		ModelAndView model = new ModelAndView("TipoActividadForm");
+		ModelAndView model = new ModelAndView("TipoClienteForm");
 		model.addObject("tipoCliente", tipoCliente);
 
 		return model;

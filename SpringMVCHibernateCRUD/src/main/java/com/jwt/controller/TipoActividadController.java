@@ -28,12 +28,6 @@ public class TipoActividadController {
 	@Autowired
 	private TipoActividadService tipoService;
 	
-	@RequestMapping(value = "/")
-	public ModelAndView inicio(ModelAndView model) throws IOException {
-		model.setViewName("inicio");
-		return model;
-	}
-	
 	@RequestMapping(value = "/tipoActividad")
 	public ModelAndView listTipoActividad(ModelAndView model) throws IOException {
 		List<TipoActividad> listTipoActividad = tipoService.getAllTipoActividad();

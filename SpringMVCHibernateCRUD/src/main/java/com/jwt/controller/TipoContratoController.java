@@ -59,7 +59,7 @@ public class TipoContratoController {
 	public ModelAndView borrarTipoContrato(HttpServletRequest request) {
 		int tipoContratoId = Integer.parseInt(request.getParameter("id"));
 		tipoContratoService.deleteTipoContrato(tipoContratoId);
-		return new ModelAndView("redirect:/tipoContratoId");
+		return new ModelAndView("redirect:/tipoContrato");
 	}
 
 	@RequestMapping(value = "/editarTipoContrato", method = RequestMethod.GET)
