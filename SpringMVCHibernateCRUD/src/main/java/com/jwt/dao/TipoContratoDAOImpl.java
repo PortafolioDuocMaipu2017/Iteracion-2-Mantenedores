@@ -21,7 +21,7 @@ public class TipoContratoDAOImpl implements TipoContratoDAO {
 	@SuppressWarnings("unchecked")
 	public List<TipoContrato> getAllTipoContrato() {
 
-		return sessionFactory.getCurrentSession().createQuery("from tipo_contrato")
+		return sessionFactory.getCurrentSession().createQuery("from TipoContrato")
 				.list();
 	}
 
