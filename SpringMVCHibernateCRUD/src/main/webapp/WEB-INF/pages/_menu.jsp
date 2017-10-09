@@ -18,14 +18,19 @@
       <a class="navbar-brand" href="#">Mantenedores</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Inicio</a></li>
+      <li class="active"><a href="/">Inicio</a></li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Tipo Actividades <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="nuevoTipoActividad">Nueva Actividad</a></li>
           <li><a href="tipoActividad">Lista de Actividades</a></li>
         </ul>
       </li>
-      <li><a href="#">Page 2</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Tipo Clientes <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="nuevoTipoCliente">Nuevo Tipo Cliente</a></li>
+          <li><a href="tipoCliente">Lista de Tipo Cliente</a></li>
+        </ul>
+      </li>
       <li><a href="#">Page 3</a></li>
     </ul>
   </div>
